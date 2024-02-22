@@ -1,0 +1,53 @@
+/* CSS for the post container */
+.postContainer {
+    background-color: #ffffff;
+    /* border: 1px solid #e0e0e0; */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make the post container take the full width */
+    max-width: 600px; /* Set a maximum width to prevent it from spreading too wide */
+}
+
+/* CSS for adding spacing between posts */
+.postContainer + .postContainer {
+    margin-top: 20px; /* Add top margin between posts */
+}
+/* CSS for the title container */
+.titleContainer {
+    margin-bottom: 20px;
+}
+
+.titleContainer h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.titleContainer h3 {
+    font-size: 16px;
+    color: #666666;
+}
+
+/* CSS for the image container */
+.imageContainer {
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* CSS for the stats container */
+.statsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statsContainer p {
+    font-size: 14px;
+    color: #666666;
+}

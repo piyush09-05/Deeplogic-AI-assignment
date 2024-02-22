@@ -1,0 +1,106 @@
+/* CSS for the form container */
+.formContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CSS for the form title */
+  .formTitle {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  /* CSS for the form */
+  .createForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* CSS for the form inputs */
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formLabel {
+    font-weight: bold;
+  }
+  
+  .formInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* CSS for the form button */
+  .formButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for form button */
+  .formButton:hover {
+    background-color: #0056b3;
+  }
+  /* CSS for the navbar */
+.navbar {
+
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+}
+
+/* CSS for the schedule button */
+.scheduleButton {
+    margin-right: 10px; /* Add some spacing between buttons */
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for schedule button */
+.scheduleButton:hover {
+    background-color: #0056b3;
+}
+
+/* CSS for the logout button */
+.logoutButton {
+    padding: 8px 16px;
+    background-color: #dc3545; /* Red color for logout button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for logout button */
+.logoutButton:hover {
+    background-color: #c82333;
+}
+
+.homeButton{
+    margin-right: 10px; /* Add some spacing between buttons */
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.homeButton:hover{
+    background-color: #0056b3;
+}
